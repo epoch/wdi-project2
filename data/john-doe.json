@@ -1,8 +1,0 @@
-  {
-    "name": "John Doe", 
-    "github_username": "johndoe",
-    "project2": {
-      "repo_url": "https://github.com/johndoe/my-project-2",
-      "demo_url": "http://my-project-2.herokuapp.com/" 
-    }
-  }
