@@ -43,6 +43,6 @@ for example, instead of this:
 
     @chapters = Profile.all.map(&:chapter).uniq.sort
 
-do this:
+try this:
 
     @chapters = Profile.uniq.pluck(:chapter).sort
