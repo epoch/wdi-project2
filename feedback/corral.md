@@ -42,15 +42,15 @@ consider making it dynamic based on the environment, so s3 is not required in de
 
 in the layout.js file
 
-  // The following compensates for the adding of the border from the Jquery UI library
+    // The following compensates for the adding of the border from the Jquery UI library
 
-  $('#panel').css({
+    $('#panel').css({
+      
+      // Make the border unnoticable and hide the vertical scrollbar
 
-   // Make the border unnoticable and hide the vertical scrollbar
-
-   'width': '299px',
-   'overflow-y': 'hidden'
-  });
+      'width': '299px',
+      'overflow-y': 'hidden'
+    });
 
 any reason why this css cannot be defined in a css file?
 
